@@ -1,10 +1,10 @@
 <?php
 
-namespace Rayzoranalytics\Controller\Service;
+namespace Rayzor\Analytics\Controller\Service;
 
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
-use Rayzoranalytics\Controller\SendController;
+use Rayzor\Analytics\Controller\SendController;
 
 class SendControllerFactory implements FactoryInterface
 {
@@ -13,7 +13,7 @@ class SendControllerFactory implements FactoryInterface
         $serviceLocator = $serviceLocator->getServiceLocator();
         $controller = new SendController();
         $config = $serviceLocator->get('Config');
-        $service = $serviceLocator->get('Rayzoranalytics\Service\AnalyticsService');
+        $service = $serviceLocator->get('Rayzor\Analytics\Service\AnalyticsService');
         /**
          * TODO: Throw exception when there is no user-agent
          */

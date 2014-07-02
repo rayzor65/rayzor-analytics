@@ -1,6 +1,6 @@
 <?php
 
-namespace Rayzoranalytics;
+namespace Rayzor\Analytics;
 
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 

@@ -3,12 +3,12 @@
 return array(
     'controllers' => array(
         'factories' => array(
-            'Rayzoranalytics\Controller\SendController' => 'Rayzoranalytics\Controller\Service\SendControllerFactory',
+            'Rayzor\Analytics\Controller\SendController' => 'Rayzor\Analytics\Controller\Service\SendControllerFactory',
         ),
     ),
     'service_manager' => array(
         'factories' => array(
-            'Rayzoranalytics\Service\AnalyticsService' => 'Rayzoranalytics\Service\Service\AnalyticsServiceFactory',
+            'Rayzor\Analytics\Service\AnalyticsService' => 'Rayzor\Analytics\Service\Service\AnalyticsServiceFactory',
         ),
     ),
     'view_manager' => array(
