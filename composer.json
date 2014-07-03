@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Rayzor\\Analytics\\" : "src"
+            "Rayzor\\Analytics\\" : "src/Rayzor/Analytics"
         },
         "classmap": [
             "./Module.php"
