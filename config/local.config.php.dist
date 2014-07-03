@@ -3,5 +3,6 @@
 return array(
     'analytics' => array(
         'user-agent' => 'XXXXXX',
+        'tId' => 'UA-XXXXXXX-X',
     ),
 );

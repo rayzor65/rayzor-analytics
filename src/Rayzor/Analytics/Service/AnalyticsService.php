@@ -8,6 +8,23 @@ class AnalyticsService
 {
     protected $cookie;
     protected $userAgent;
+    protected $tId;
+
+    /**
+     * @param mixed $tId
+     */
+    public function setTId($tId)
+    {
+        $this->tId = $tId;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTId()
+    {
+        return $this->tId;
+    }
 
     /**
      * @param mixed $userAgent
@@ -59,7 +76,7 @@ class AnalyticsService
         // Google Analytics Measurement Protocol Params
         $gaParams = array(
             'v' => '1', // Version of measurement protocol
-            'tid' => 'UA-17089012-1', // Tracking ID
+            'tid' => $this->getTId(), // Tracking ID
             'cid' => $cid, // Customer/User ID
             't' => 'event', // Type
             'ec' => 'TestCategory', // Category
