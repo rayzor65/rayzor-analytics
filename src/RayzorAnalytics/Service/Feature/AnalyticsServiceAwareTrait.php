@@ -1,8 +1,8 @@
 <?php
 
-namespace Rayzor\Analytics\Service\Feature;
+namespace RayzorAnalytics\Service\Feature;
 
-use Rayzor\Analytics\Service\AnalyticsService;
+use RayzorAnalytics\Service\AnalyticsService;
 use Zend\Stdlib\Exception\LogicException;
 
 trait AnalyticsServiceAwareTrait

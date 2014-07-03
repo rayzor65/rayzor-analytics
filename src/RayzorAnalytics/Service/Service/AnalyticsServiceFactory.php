@@ -1,8 +1,8 @@
 <?php
 
-namespace Rayzor\Analytics\Service\Service;
+namespace RayzorAnalytics\Service\Service;
 
-use Rayzor\Analytics\Service\AnalyticsService;
+use RayzorAnalytics\Service\AnalyticsService;
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 

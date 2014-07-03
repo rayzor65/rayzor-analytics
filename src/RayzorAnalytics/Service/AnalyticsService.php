@@ -1,6 +1,6 @@
 <?php
 
-namespace Rayzor\Analytics\Service;
+namespace RayzorAnalytics\Service;
 
 use Zend\Http\Client;
 

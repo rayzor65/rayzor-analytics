@@ -1,10 +1,10 @@
 <?php
 
-namespace Rayzor\Analytics\Controller;
+namespace RayzorAnalytics\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\Http\Client;
-use Rayzor\Analytics\Service\Feature\AnalyticsServiceAwareTrait;
+use RayzorAnalytics\Service\Feature\AnalyticsServiceAwareTrait;
 
 class SendController extends AbstractActionController
 {

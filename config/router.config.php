@@ -8,7 +8,7 @@ return array(
                 'options' => array(
                     'route' => '/analytics/send-event',
                     'defaults' => array(
-                        'controller' => 'Rayzor\Analytics\Controller\SendController',
+                        'controller' => 'RayzorAnalytics\Controller\SendController',
                         'action' => 'send-event',
                     ),
                 ),

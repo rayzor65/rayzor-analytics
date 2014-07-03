@@ -1,5 +1,5 @@
 {
-    "name": "rayzor/analytics",
+    "name": "rayzor/rayzor-analytics",
     "description": "Analytics",
     "authors": [
         {
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Rayzor\\Analytics\\" : "src/Rayzor/Analytics"
+            "RayzorAnalytics\\" : "src/RayzorAnalytics"
         },
         "classmap": [
             "./Module.php"
