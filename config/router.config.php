@@ -3,7 +3,7 @@
 return array(
     'router' => array(
         'routes' => array(
-            'index' => array(
+            'analytics' => array(
                 'type' => 'literal',
                 'options' => array(
                     'route' => '/analytics/send-event',
